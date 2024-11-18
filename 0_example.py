@@ -12,7 +12,7 @@ honapok = ['január',
            'december'
 ]
 
-print(honapok)
+print(*honapok, sep=", ")
 
 #lista hossza: len()
 print(len(honapok))
